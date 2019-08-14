@@ -1,18 +1,48 @@
 <?xml version="1.0"?>
 <package>
     <name>Medma_RemoveallOrders</name>
-    <version>1.0.2</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
-    <license>OSL v3.0</license>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>This extension provides the functionality of removing all the orders on a single button click. </summary>
-    <description>This extension provides the functionality of removing all the orders on a single button click. </description>
-    <notes>This is a latest release</notes>
-    <authors><author><name>Medma Infomatix</name><user>Medma_Infomatix</user><email>gaurav@medma.in</email></author></authors>
-    <date>2012-12-27</date>
-    <time>10:09:56</time>
-    <contents><target name="magelocal"><dir name="Medma"><dir name="Removeallorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><file name="Order.php" hash="9dd320db7bf2589098f0fa4aca73b7ce"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RemoveallorderController.php" hash="4a9d2b09a1dbbcf645791141a36f5e19"/></dir></dir><dir name="etc"><file name="config.xml" hash="4a8fa84a83b173b8f549b924f4130b27"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Medma_Removeallorder.xml" hash="65a4a8d77ba8d53fd9d872015f7a8612"/></dir></target></contents>
+    <summary>The extension provides the functionality of removing the selected orders on a single button click. This extension is primarily targeted for Developers but it can be very handy and useful for Merchants, in certain circumstances.</summary>
+    <description>Medma One click Remove Orders&#xD;
+&#xD;
+The extension provides the functionality of removing the selected orders on a single button click. This extension is primarily targeted for Developers but it can be very handy and useful for Merchants, in certain circumstances.&#xD;
+&#xD;
+The functionality of removing multiple orders is usually required by the Developers when they are done with the development and the store is ready to be made live. Often, during the development phase many dummy orders are placed which needs to be removed before making a web store live.&#xD;
+&#xD;
+Features:&#xD;
+&#xD;
+No core file changed.&#xD;
+Useful tool for developers.&#xD;
+Delete selected test orders or all orders from Magento, before making your website live.&#xD;
+&#xD;
+Supported Features:&#xD;
+&#xD;
+Delete number of test orders in few seconds.&#xD;
+Works on Magento 1.6 and above&#xD;
+&#xD;
+Installation:&#xD;
+&#xD;
+Install Extension Using Magento Connect&#xD;
+Log out from admin and log in admin again.&#xD;
+Sales-&gt;Orders&#xD;
+1. Select the orders by clicking the checkboxes.&#xD;
+2. Select Delete Orders from Action&#xD;
+3. Click Submit Button.&#xD;
+&#xD;
+Contact Us&#xD;
+&#xD;
+For any assistance, please emails us at magento.support@medma.in &#xD;
+&#xD;
+Give us your valueable feedbacks to improve this extension, we will surely consider your feedback in the next release version of the extension.</description>
+    <notes>The extension provides the functionality of removing the selected orders on a single button click. This extension is primarily targeted for Developers but it can be very handy and useful for Merchants, in certain circumstances.</notes>
+    <authors><author><name>Medma_Infomatix</name><user>Medma_Infomatix</user><email>gaurav@medma.in</email></author></authors>
+    <date>2014-07-18</date>
+    <time>09:48:39</time>
+    <contents><target name="magecommunity"><dir name="Medma"><dir name="Removeorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="9692dd13d4cc70ca198a09f6d59f44e9"/></dir><file name="Order.php" hash="ae1431cb63d789b29f037ef8dd8bca61"/></dir></dir></dir><dir name="Model"><file name="Authenticate.php" hash="4383dfba3895fda5f7d0a85911de5a51"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Sales"><file name="OrderController.php" hash="81bf2f3141aa9a511d2de48cc835123d"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="52933cc52ecf0e8883dfc5796097c8db"/></dir><dir name="sql"><dir name="removeorder_setup"><file name="mysql4-install-1.0.2.php" hash="f8f08f4f6f436baa22580adca13d9306"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Medma_Removeorder.xml" hash="412fd01883f4374af1d475a392a7cdc5"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

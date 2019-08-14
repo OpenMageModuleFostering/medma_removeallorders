@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/Medma_RemoveallOrders",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "This extension provides the functionality of removing all the orders on a single button click. ",
+    "description": "The extension provides the functionality of removing the selected orders on a single button click. This extension is primarily targeted for Developers but it can be very handy and useful for Merchants, in certain circumstances.",
     "authors": [
     {
-        "name": "Medma Infomatix",
+        "name": "Medma_Infomatix",
         "email": "gaurav@medma.in"
     }
 ],

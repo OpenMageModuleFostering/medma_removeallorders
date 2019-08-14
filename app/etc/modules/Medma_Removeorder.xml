@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Medma_Removeallorder>
+        <Medma_Removeorder>
             <active>true</active>
-            <codePool>local</codePool>
-        </Medma_Removeallorder>
+            <codePool>community</codePool>
+        </Medma_Removeorder>
     </modules>
 </config> 
