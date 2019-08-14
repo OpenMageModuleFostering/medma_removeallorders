@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Medma_RemoveallOrders</name>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license>OSL v3.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>This extension provides the facility to remove all the orders on a single button click.</summary>
-    <description>This extension provides the facility to remove all the orders on a single button click.&#xD;
-&#xD;
-This extension is very useful for both merchants and developers.</description>
-    <notes>This is a stable version</notes>
+    <summary>This extension provides the functionality of removing all the orders on a single button click. </summary>
+    <description>This extension provides the functionality of removing all the orders on a single button click. </description>
+    <notes>This is a latest release</notes>
     <authors><author><name>Medma Infomatix</name><user>Medma_Infomatix</user><email>gaurav@medma.in</email></author></authors>
-    <date>2012-09-25</date>
-    <time>12:44:16</time>
-    <contents><target name="magelocal"><dir name="Medma"><dir name="Removeallorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><file name="Order.php" hash="9dd320db7bf2589098f0fa4aca73b7ce"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RemoveallorderController.php" hash="4a9d2b09a1dbbcf645791141a36f5e19"/></dir></dir><dir name="etc"><file name="config.xml" hash="4a8fa84a83b173b8f549b924f4130b27"/></dir></dir></dir><dir name="modules"><file name="Medma_Removeallorder.xml" hash=""/></dir></target></contents>
+    <date>2012-12-27</date>
+    <time>10:09:56</time>
+    <contents><target name="magelocal"><dir name="Medma"><dir name="Removeallorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><file name="Order.php" hash="9dd320db7bf2589098f0fa4aca73b7ce"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="RemoveallorderController.php" hash="4a9d2b09a1dbbcf645791141a36f5e19"/></dir></dir><dir name="etc"><file name="config.xml" hash="4a8fa84a83b173b8f549b924f4130b27"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Medma_Removeallorder.xml" hash="65a4a8d77ba8d53fd9d872015f7a8612"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
